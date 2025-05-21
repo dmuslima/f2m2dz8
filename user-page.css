@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+.header{
+    width: 1588px;
+    height: 982px;  
+    margin: 0 auto;
+    background-color: #F5F5F5;
+}
+.nav{
+    width: 1588px;
+    height: 94px;
+    color: white;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 60px;
+}
+.nav ul{
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.nav ul li{
+    font-size: 30px;
+}
+.card{
+    width: 380px;
+    height: 551px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 27px;
+    margin: 120px auto;
+}
+.statistika{
+    width: 380px;
+    height: 75px;
+    color: white;
+    border-radius: 16px;
+    background: linear-gradient(286.17deg, #E33D0E 0%, #FF7D58 100%);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.coins{
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+}
+#logout{
+    text-align: right;
+    margin-top: 30px;
+    margin-right: 100px;
+}
